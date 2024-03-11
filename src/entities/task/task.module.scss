@@ -1,0 +1,33 @@
+.container {
+  height: auto;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  border-radius: 3px;
+  box-shadow: var(--ds-shadow-raised,0 1px 0 #091e4240);
+  color: var(--ds-text,inherit);
+  cursor: pointer;
+  max-width: 300px;
+  min-height: 20px;
+  position: relative;
+
+  .title {
+    color: #172b4d;
+    display: block;
+    margin: 0 0 4px;
+    font-size: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}

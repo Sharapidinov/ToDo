@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: var(--ds-text,#172b4d)
+}
+
+
+body {
+  background-image: url("https://d2k1ftgv7pobq7.cloudfront.net/images/backgrounds/gradients/alien.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}

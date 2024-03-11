@@ -1,0 +1,62 @@
+@import "./src/shared/styles/_root.scss";
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form_title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 600;
+
+  & input {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    border-radius: 4px;
+  }
+}
+
+.form_description {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 600;
+
+  & textarea {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-size: 17px;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+
+  & button {
+    height: 42px;
+    padding: 0px 14px;
+    background: $primaryColor;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}

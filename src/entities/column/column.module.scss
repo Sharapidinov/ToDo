@@ -1,0 +1,11 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ebecf0;
+  height: fit-content;
+  border: 1px solid #eee;
+  padding: 10px 8px;
+  min-width: 280px;
+  border-radius: 3px;
+}

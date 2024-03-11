@@ -1,0 +1,25 @@
+.create_column {  
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color:  rgba(255, 255, 255, 0.2);
+  height: fit-content;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 8px;
+  transition: 0.1s ease-in-out;
+
+  span {
+    color: #FFF;
+  }
+
+  svg path{
+    stroke: #FFF
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
